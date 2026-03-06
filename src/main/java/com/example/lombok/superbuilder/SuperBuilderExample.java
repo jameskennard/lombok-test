@@ -3,7 +3,7 @@ package com.example.lombok.superbuilder;
 import lombok.experimental.SuperBuilder;
 
 @SuperBuilder
-public class ParentClassWithSuperBuilderAnnotation {
+public class SuperBuilderExample {
 
     private int parentField;
 }
