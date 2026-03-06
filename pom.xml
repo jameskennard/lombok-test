@@ -83,7 +83,7 @@
                 </executions>
                 <configuration>
                     <sourceDirectory>src/main/java</sourceDirectory>
-                    <outputDirectory>target/generated-sources/delombok</outputDirectory>
+                    <outputDirectory>${project.build.directory}/delombok</outputDirectory>
                     <addOutputDirectory>false</addOutputDirectory>
                     <encoding>UTF-8</encoding>
                 </configuration>
